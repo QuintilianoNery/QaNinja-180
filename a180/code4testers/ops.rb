@@ -100,3 +100,7 @@ end
 
 #true, pois são diferentes
 # diferente(10, "10")
+
+#true, pois 10 é diferente de 10.0
+
+diferente(10, "10")
