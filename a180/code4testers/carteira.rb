@@ -1,5 +1,8 @@
-nome = "Quintiliano"
-idade = 7
+#utilizando a função gets do ruby
+puts "Qual o seu nome?"
+nome = gets.chomp
+puts "Informe sua idade!"
+idade = gets.chomp.to_i
 
 if (idade >= 18)
   puts nome + ", você pode tirar carteira de motorista!"
